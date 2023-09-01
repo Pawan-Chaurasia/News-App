@@ -1,0 +1,72 @@
+@media screen and (width<=1200px) {
+    .container {
+        max-width: 900px;
+    }
+    .cards-container {
+        justify-content: space-around;
+    }
+}
+@media screen and (width<=920px) {
+    .container {
+        max-width: 740px;
+    }
+    .cards-container {
+        justify-content: space-between;
+    }
+}
+@media screen and (width<=760px) {
+    .container {
+        max-width: 600px;
+    }
+    .cards-container {
+        justify-content: center;
+    }
+    .company-logo img{
+        width: 90px;
+    } 
+    .card{
+        width: 440px;
+        min-height: 350px;
+    }
+    .card-header img{
+        height: 200px;
+    }
+}
+@media screen and (width<=615px) {
+    .container {
+        max-width: 500px;
+    }
+    .company-logo img{
+        width: 80px;
+    }
+    .nav-links ul{
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media screen and (width<=500px) {
+    .container {
+        max-width: 400px;
+    }
+    .nav-links ul{
+        display: none;
+    }
+    .search-bar{
+        height: 35px;
+        gap: 2px;   
+    }
+    .news-input{
+        width: 180px;
+        padding-inline: 5px;
+    }
+    .search-button{
+        padding: 8px 10px;
+    }
+    .card{
+        width: 360px;
+        min-height: 380px;
+    }
+    .card-header img{
+        height: 180px;
+    }
+}
